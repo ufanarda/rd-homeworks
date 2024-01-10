@@ -46,7 +46,7 @@ public enum Planet {
 
     public static String distance(double d) {
         if (d >= 1000) {
-            return d + " Milyar kilometredir. ";
+            return d/1000 + " Milyar kilometredir. ";
         } else
             return d + " Milyon kilometredir. ";
     }
