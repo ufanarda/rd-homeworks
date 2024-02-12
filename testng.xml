@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing RD-HomeWorks">
+    <test name="Odev5Test">
+        <classes>
+            <class name="odev13.Odev5Test"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Odev5TestWithDataProvider">
+        <classes>
+            <class name="odev13.Odev5TestWithDataProvider"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
